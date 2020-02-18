@@ -11,17 +11,18 @@
 ### 安装与配置
 - 建议使用conda环境进行安装
 - 以下为需要安装的库列表：
- - numpy
- - scipy
- - Pillow
- - cython
-matplotlib
-scikit-image
-tensorflow>=1.3.0
-keras>=2.0.8
-opencv-python
-h5py
-imgaug
-IPython
- 
+  - numpy
+  - scipy
+  - Pillow
+  - cython
+  - matplotlib
+  - scikit-image
+  - tensorflow>=1.3.0
+  - keras>=2.0.8
+  - opencv-python
+  - h5py
+  - imgaug
+  - IPython
+### 预训练模型
+源码提供的预训练模型：百度网盘
 
