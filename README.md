@@ -24,5 +24,6 @@
   - imgaug
   - IPython
 ### 预训练模型
-源码提供的预训练模型：百度网盘
+- 源码提供的预训练模型：[百度网盘](https://pan.baidu.com/s/1PU-s1ymzfms9-O6xMk9Rtg)，提取码：8wiu
+- 圆盘工件的训练模型：[百度网盘](https://pan.baidu.com/s/1PFnDiM7bPzXg9nYhMNu4SA)，提取码：qzl9
 
