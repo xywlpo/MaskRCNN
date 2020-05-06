@@ -1,6 +1,5 @@
 ### 代码出处
 代码源自：https://github.com/matterport/Mask_RCNN
-### 已完成列表
 ### 已经这样了
 - [x] 解析maskrcnn源代码，并添加中文注释
 - [ ] 基于该代码进行扩展与修改
