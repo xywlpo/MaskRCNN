@@ -1,29 +1,23 @@
-### 代码出处
-代码源自：https://github.com/matterport/Mask_RCNN
-### 已经这样了
-- [x] 解析maskrcnn源代码，并添加中文注释
-- [ ] 基于该代码进行扩展与修改
-### 文件结构
-* mrcnn文件夹：核心算法python源文件
-* data_aug.py：用于进行数据增强
-* train_segment.py：训练与测试的主文件
-* MaskRCNNTrainGraph.mmap：总结算法训练流程图，使用思维导图编写
-### 安装与配置
-- 建议使用conda环境进行安装
-- 以下为需要安装的库列表：
-  - numpy
-  - scipy
-  - Pillow
-  - cython
-  - matplotlib
-  - scikit-image
-  - tensorflow>=1.3.0
-  - keras>=2.0.8
-  - opencv-python
-  - h5py
-  - imgaug
-  - IPython
-### 预训练模型
-- 源码提供的预训练模型：[百度网盘](https://pan.baidu.com/s/1PU-s1ymzfms9-O6xMk9Rtg)，提取码：8wiu
-- 圆盘工件的训练模型：[百度网盘](https://pan.baidu.com/s/1PFnDiM7bPzXg9nYhMNu4SA)，提取码：qzl9
+## Introduction
+This code is for learning maskrcnn algorithm from https://github.com/matterport/Mask_RCNN. I have make very detailed code annotation for it. And I have created a ros node of maskrcnn for robot grasping.
+## Current Process
+- [x] make detailed code annotation
+- [x] write a ros node of maskrcnn
+- [x] write a data augmentation python script to generate more data
+## File Funciton
+* mrcnn files：core algorithm of maskrcnn
+* data_aug.py：data augmentation
+* train_segment.py：model train and test 
+* MaskRCNNTrainGraph.mmap：flow chart of maskrcnn algorithm
+* segment_node.py: ros node of maskrcnn inference
+## Install
+You should install following libraries:
+```
+numpy scipy Pillow cython matplotlib scikit-image tensorflow>=1.3.0 keras>=2.0.8 opencv-python h5py imgaug IPython
+```
+## Model
+- Pre-trained model：[Baidu Disk](https://pan.baidu.com/s/1PU-s1ymzfms9-O6xMk9Rtg)，code：8wiu
+- Trained model for workpiece：[Baidu Disk](https://pan.baidu.com/s/1PFnDiM7bPzXg9nYhMNu4SA)，code：qzl9
+The workpiece is as following:
+
 
