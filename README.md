@@ -20,4 +20,4 @@ numpy scipy Pillow cython matplotlib scikit-image tensorflow>=1.3.0 keras>=2.0.8
 - Trained model for workpiece：[Baidu Disk](https://pan.baidu.com/s/1PFnDiM7bPzXg9nYhMNu4SA)，code：qzl9
 The workpiece is as following:
 
-![](https://github.com/xywlpo/MaskRCNN/blob/master/test.png)
+![test](https://github.com/xywlpo/MaskRCNN/blob/master/test.png)
